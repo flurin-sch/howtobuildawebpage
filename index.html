@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titel</title>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', e => {
+            let el = document.querySelector("#world");
+            el.style.color="#" + Math.floor(Math.random()*16777215).toString(16);
+        });
+
+        document.addEventListener("DOMContentLoaded"), e => {
+            let el = document.querySelector("#world");
+            el.style.backgroundcolor = "red"
+        }
+    </script>
+    <style>
+        #world {position: absolute;
+            text-align: center;} 
+    </style>
+</head>
+<body>
+    <div id="world">Hello World</div>
+</body>
+</html>
